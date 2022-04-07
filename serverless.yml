@@ -3,7 +3,7 @@ provider:
   name: aws
   runtime: nodejs14.x
 
-  #stage: default
+  stage: dev
   region: ap-south-1
 
 functions:
