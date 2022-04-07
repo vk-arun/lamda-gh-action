@@ -3,6 +3,6 @@
 module.exports.generateRandomNumber = async (event) => {
 const randomNumber = parseInt(Math.random()*100);
 console.log('first lambda ');
-console.log('The random generated integer is ', randomNumber);
-return randomNumber;
+return console.log('The random generated integer is ', randomNumber);
+ 
 };
