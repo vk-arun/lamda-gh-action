@@ -1,9 +1,9 @@
 service: lamda-gh-action
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs14.x
 
-  stage: default
+  #stage: default
   region: ap-south-1
 
 functions:
