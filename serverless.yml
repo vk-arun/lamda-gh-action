@@ -3,7 +3,7 @@ provider:
   name: aws
   runtime: nodejs12.x
 
-  stage: dev
+  stage: default
   region: ap-south-1
 
 functions:
