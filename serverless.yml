@@ -2,10 +2,9 @@ service: lamda-gh-action
 provider:
   name: aws
   runtime: nodejs14.x
-
-  stage: default
+  stage: dev
   region: ap-south-1
 
 functions:
   handler:
-    index: src/index.handler
+    handler: src/index.handler
