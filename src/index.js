@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.handler = async (event) => {
+module.exports.hello = async (event) => {
 const randomNumber = parseInt(Math.random()*100);
 console.log('first lambda ');
 const response = {

@@ -6,5 +6,5 @@ provider:
   region: ap-south-1
 
 functions:
-  handler:
-    handler: src/index.handler
+  hello:
+    handler: src/index.hello
